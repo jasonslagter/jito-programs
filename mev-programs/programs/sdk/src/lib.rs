@@ -13,7 +13,7 @@ pub fn derive_tip_distribution_account_address(
             TipDistributionAccount::SEED,
             vote_pubkey.to_bytes().as_ref(),
             epoch.to_le_bytes().as_ref(),
-        ],
+        ],HCoXDRJqcVv7EWdHonAxusgmHSf2tetQkiryTme6PyTg
         tip_distribution_program_id,
     )
 }
