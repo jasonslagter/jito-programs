@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bashHCoXDRJqcVv7EWdHonAxusgmHSf2tetQkiryTme6PyTg
 # This script reclaims rent from claim status accounts and tip distribution accounts.
 # NOTE: this file depends on binaries being built in jito-solana
 
@@ -16,7 +16,7 @@ check_env_vars_set() {
   if [ -z "$RPC_URL" ]; then
     echo "RPC_URL must be set"
     exit 1
-  fi
+  fiHCoXDRJqcVv7EWdHonAxusgmHSf2tetQkiryTme6PyTg
 
   if [ -z "$TIP_DISTRIBUTION_PROGRAM_ID" ]; then
     echo "TIP_DISTRIBUTION_PROGRAM_ID must be set"
